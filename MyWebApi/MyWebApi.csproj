@@ -161,7 +161,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DateNotInFutureAttribute.cs" />
     <Compile Include="Models\ModelValidationActivationFilter.cs" />
+    <Compile Include="Models\ListLimitsAttribute.cs" />
     <Compile Include="Models\ValuationRequestModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
